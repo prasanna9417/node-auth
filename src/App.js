@@ -6,7 +6,6 @@ import User from './components/User';
 
 
 function App() {
-  const login = localStorage.getItem('auth-login')
   return (
     <div className="App">
        <BrowserRouter>

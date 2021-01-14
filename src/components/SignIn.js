@@ -22,7 +22,7 @@ class SignIn extends React.Component{
         console.log('handlechange clicked')
         const { name, value } = e.target
         let errors = this.state.errors;
-        if(name=='email'){
+        if(name==='email'){
             if(validator.isEmail(value)){
                 errors.email=''
             }else{

@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import axios from '../config/axios'
 
 class User extends React.Component{
